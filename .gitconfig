@@ -1,0 +1,10 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = vaisal-lp
+	email = vaisal.as@logicplum.com
+[gui]
+	recentrepo = C:/Users/Vaisal/Projects/Oriel_Analytics_BE
